@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4527487-5b96-469c-a712-1b4fcaf611f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/juaracoding/testFinancialRecord.java" afterDir="false" />
+    <list default="true" id="b4527487-5b96-469c-a712-1b4fcaf611f2" name="Changes" comment="firstcommit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/juaracoding/testFinancialRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/juaracoding/testFinancialRecord.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,47 +23,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2ZfiucPOFRr1Ae3AE2D6eVSSoWz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.testFinancialRecord.addRecord">
-    <configuration name="testFinancialRecord (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FinancialRecord" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.juaracoding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.juaracoding" />
-      <option name="MAIN_CLASS_NAME" value="com.juaracoding.testFinancialRecord" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="TestNG.testFinancialRecord.addRecordPemasukan">
     <configuration name="testFinancialRecord" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FinancialRecord" />
       <extension name="coverage">
@@ -87,7 +64,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testFinancialRecord.addRecord (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="testFinancialRecord.addRecordPemasukan (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FinancialRecord" />
       <extension name="coverage">
         <pattern>
@@ -97,7 +74,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.juaracoding" />
       <option name="MAIN_CLASS_NAME" value="com.juaracoding.testFinancialRecord" />
-      <option name="METHOD_NAME" value="addRecord" />
+      <option name="METHOD_NAME" value="addRecordPemasukan" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -105,7 +82,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testFinancialRecord.addRecord" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="testFinancialRecord.addRecordPemasukan" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FinancialRecord" />
       <extension name="coverage">
         <pattern>
@@ -115,7 +92,43 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.juaracoding" />
       <option name="MAIN_CLASS_NAME" value="com.juaracoding.testFinancialRecord" />
-      <option name="METHOD_NAME" value="addRecord" />
+      <option name="METHOD_NAME" value="addRecordPemasukan" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testFinancialRecord.addRecordPengeluaran (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FinancialRecord" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juaracoding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.juaracoding" />
+      <option name="MAIN_CLASS_NAME" value="com.juaracoding.testFinancialRecord" />
+      <option name="METHOD_NAME" value="addRecordPengeluaran" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testFinancialRecord.addRecordPengeluaran" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FinancialRecord" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juaracoding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.juaracoding" />
+      <option name="MAIN_CLASS_NAME" value="com.juaracoding.testFinancialRecord" />
+      <option name="METHOD_NAME" value="addRecordPengeluaran" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -125,10 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.testFinancialRecord.addRecord" />
-        <item itemvalue="TestNG.testFinancialRecord.addRecord (1)" />
-        <item itemvalue="TestNG.testFinancialRecord (1)" />
+        <item itemvalue="TestNG.testFinancialRecord.addRecordPemasukan" />
+        <item itemvalue="TestNG.testFinancialRecord.addRecordPemasukan (1)" />
         <item itemvalue="TestNG.testFinancialRecord" />
+        <item itemvalue="TestNG.testFinancialRecord.addRecordPengeluaran (4)" />
+        <item itemvalue="TestNG.testFinancialRecord.addRecordPengeluaran" />
       </list>
     </recent_temporary>
   </component>
@@ -140,11 +154,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702819764429</updated>
-      <workItem from="1702819765518" duration="1616000" />
+      <workItem from="1702819765518" duration="2058000" />
+      <workItem from="1702851800656" duration="3410000" />
     </task>
+    <task id="LOCAL-00001" summary="firstcommit">
+      <option name="closed" value="true" />
+      <created>1702821463559</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702821463559</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="firstcommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="firstcommit" />
   </component>
 </project>
