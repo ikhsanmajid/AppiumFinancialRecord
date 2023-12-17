@@ -34,7 +34,7 @@ public class testFinancialRecord {
         driver.findElement(By.xpath("//android.widget.Button[@resource-id='android:id/button2']")).click();
     }
 
-    @Test(priority = 1)
+    @Test(priority = 2)
     public void addRecordPengeluaran(){
         MobileElement addBtn = (MobileElement) driver.findElement(By.id("com.chad.financialrecord:id/fabMenu"));
         addBtn.click();
@@ -63,7 +63,7 @@ public class testFinancialRecord {
         Assert.assertEquals(amountExpenseRecord, "400.000");
     }
 
-    @Test(priority = 2)
+    @Test(priority = 1)
     public void addRecordPemasukan(){
         MobileElement addBtn = (MobileElement) driver.findElement(By.id("com.chad.financialrecord:id/fabMenu"));
         addBtn.click();
@@ -76,22 +76,22 @@ public class testFinancialRecord {
         MobileElement okBtn = (MobileElement) driver.findElement(By.xpath("//android.widget.Button[@resource-id='android:id/button1']"));
         okBtn.click();
         MobileElement jumlah = (MobileElement) driver.findElement(By.id("com.chad.financialrecord:id/etAmount"));
-        jumlah.sendKeys("2.000.000");
+        jumlah.sendKeys("2000000");
         MobileElement notes = (MobileElement) driver.findElement(By.id("com.chad.financialrecord:id/etNote"));
         notes.sendKeys("Gaji November");
         MobileElement saveBtn = (MobileElement) driver.findElement(By.id("com.chad.financialrecord:id/btSave"));
         saveBtn.click();
-        MobileElement pengeluaranRecords = (MobileElement) driver.findElement(By.xpath("//android.widget.ExpandableListView[@resource-id='com.chad.financialrecord:id/elTransaction']/android.widget.RelativeLayout"));
-        String tanggalRecord = pengeluaranRecords.findElement(By.id("com.chad.financialrecord:id/tvDateOne")).getAttribute("text");
+        MobileElement pemasukanRecords = (MobileElement) driver.findElement(By.xpath("//android.widget.ExpandableListView[@resource-id='com.chad.financialrecord:id/elTransaction']/android.widget.RelativeLayout"));
+        String tanggalRecord = pemasukanRecords.findElement(By.id("com.chad.financialrecord:id/tvDateOne")).getAttribute("text");
         System.out.println(tanggalRecord);
         List<MobileElement> listRecords = (List<MobileElement>) driver.findElements(By.xpath("//android.widget.ExpandableListView[@resource-id='com.chad.financialrecord:id/elTransaction']/android.widget.LinearLayout"));
-        String namaExpenseRecord = listRecords.get(0).findElement(By.id("com.chad.financialrecord:id/tvName")).getAttribute("text");
-        System.out.println(namaExpenseRecord);
-        String amountExpenseRecord = listRecords.get(0).findElement(By.id("com.chad.financialrecord:id/tvAmount")).getAttribute("text");
-        System.out.println(amountExpenseRecord);
-        Assert.assertEquals(tanggalRecord, "1");
-        Assert.assertEquals(namaExpenseRecord, "Gaji");
-        Assert.assertEquals(amountExpenseRecord, "2.000.000");
+        String namaIncomeRecord = listRecords.get(0).findElement(By.id("com.chad.financialrecord:id/tvName")).getAttribute("text");
+        System.out.println(namaIncomeRecord);
+        String amountIncomeRecord = listRecords.get(0).findElement(By.id("com.chad.financialrecord:id/tvAmount")).getAttribute("text");
+        System.out.println(amountIncomeRecord);
+        Assert.assertEquals(tanggalRecord, "01");
+        Assert.assertEquals(namaIncomeRecord, "Gaji");
+        Assert.assertEquals(amountIncomeRecord, "2.000.000");
     }
 
     @Test(enabled = false)

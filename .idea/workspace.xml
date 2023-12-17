@@ -46,7 +46,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.testFinancialRecord.addRecordPemasukan">
+  <component name="RunManager" selected="TestNG.testFinancialRecord">
     <configuration name="testFinancialRecord" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FinancialRecord" />
       <extension name="coverage">
@@ -64,7 +64,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testFinancialRecord.addRecordPemasukan (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="testFinancialRecord.addRecordPemasukan (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FinancialRecord" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juaracoding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.juaracoding" />
+      <option name="MAIN_CLASS_NAME" value="com.juaracoding.testFinancialRecord" />
+      <option name="METHOD_NAME" value="addRecordPemasukan" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testFinancialRecord.addRecordPemasukan (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FinancialRecord" />
       <extension name="coverage">
         <pattern>
@@ -100,24 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testFinancialRecord.addRecordPengeluaran (4)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FinancialRecord" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.juaracoding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.juaracoding" />
-      <option name="MAIN_CLASS_NAME" value="com.juaracoding.testFinancialRecord" />
-      <option name="METHOD_NAME" value="addRecordPengeluaran" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="testFinancialRecord.addRecordPengeluaran" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FinancialRecord" />
       <extension name="coverage">
@@ -138,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.testFinancialRecord.addRecordPemasukan" />
-        <item itemvalue="TestNG.testFinancialRecord.addRecordPemasukan (1)" />
         <item itemvalue="TestNG.testFinancialRecord" />
-        <item itemvalue="TestNG.testFinancialRecord.addRecordPengeluaran (4)" />
         <item itemvalue="TestNG.testFinancialRecord.addRecordPengeluaran" />
+        <item itemvalue="TestNG.testFinancialRecord.addRecordPemasukan (3)" />
+        <item itemvalue="TestNG.testFinancialRecord.addRecordPemasukan (2)" />
+        <item itemvalue="TestNG.testFinancialRecord.addRecordPemasukan" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1702819764429</updated>
       <workItem from="1702819765518" duration="2058000" />
-      <workItem from="1702851800656" duration="3410000" />
+      <workItem from="1702851800656" duration="4403000" />
     </task>
     <task id="LOCAL-00001" summary="firstcommit">
       <option name="closed" value="true" />
@@ -165,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702821463559</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="firstcommit">
+      <option name="closed" value="true" />
+      <created>1702855387231</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702855387231</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
